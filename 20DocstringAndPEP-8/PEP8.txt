@@ -1,0 +1,36 @@
+PEP stands for Python enhancement propopsal
+BAsically PEP-8 is a document that provides guidelines and best practices on how to write python code. It was written in 2001 by Guido van Rossom, Barry warsaw, and nick coghlan. the primary focus of PEP-8 is to improve the readability and consistency of python code.
+PEP is a document that describes new features proposed by python and document aspects of python, like design and style for the community.
+
+THE ZEN OF Python :-
+Long time pythoneer Tim Peters succintly channels the BDFL's guiding principles for python's desigh into 20 aphorism, only 19 of which have been written down.
+BAsically THE ZEN OF PYTHON is poem writeen by Tim Peters.
+just write "import this" in terminal :
+
+
+
+{
+>>> import this
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+>>>
+}
