@@ -12,7 +12,7 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-
+ 
 p = Person("john", 78)
 print(p.__dict__)  #it print a dictionary representation of an object attribute
 
