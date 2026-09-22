@@ -6,3 +6,4 @@ print("Pages:", len(reader.pages))
 
 text = reader.pages[0].extract_text()
 print(text)
+print(text)
