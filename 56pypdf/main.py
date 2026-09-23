@@ -1,9 +1,10 @@
-from pypdf import PdfReader
+from pypdf import PdfWriter
+import os
+merger = PdfWriter()
+files = [file for file in os.listdir() if file.endswith(".pdf")]
 
-reader = PdfReader(r"C:\Users\tiwar\OneDrive\Desktop\100 days of python\56pypdf\Python_Complete_Notes.pdf")
+for pdf in files:
+    merger.append(pdf)
 
-print("Pages:", len(reader.pages))
-
-text = reader.pages[0].extract_text()
-print(text)
-print(text)
+merger.write("merged-pdf.pdf")
+merger.close()
