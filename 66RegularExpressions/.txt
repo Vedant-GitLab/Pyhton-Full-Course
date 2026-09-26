@@ -1,0 +1,22 @@
+Regular expressions (commonly known as RegEx) are specialized sequences of characters that define a text search pattern. In Python, they are used to validate data (like checking if an email is formatted correctly), search for strings, extract text, or replace substrings. RegEx functionality is built directly into Python through the standard library's re module.
+
+ Core Component Categories :
+ To build patterns, you combine literal characters (like the letter a) with special characters called metacharacters and special sequences.
+
+ 1. Metacharacters : Metacharacters act as wildcards or structural qualifiers:
+ .(Period): Matches any single character except a newline.
+ ^: Forces the pattern to match only at the beginning of the string.
+ $: Forces the pattern to match only at the end of the string.
+ []: Defines a character set (e.g., [A-Z] matches any uppercase letter). 
+
+ 2. Quantifiers : Quantifiers specify how many times the preceding character or group should repeat:
+ *: Matches zero or more times.
+ +: Matches one or more times.
+ ?: Matches zero or one time.
+ {m,n}: Matches between m and n repetitions.
+
+ 3. Special Sequences : Special sequences act as pre-defined shortcuts for common character types:
+ \d: Matches any digit (0-9).
+ \w: Matches any alphanumeric character (letters, numbers, and underscores).
+ \s: Matches any whitespace character (spaces, tabs, newlines).
+ (Note: The capitalized forms like \D, \W, and \S perform the exact inverse matches.)
